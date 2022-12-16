@@ -9,7 +9,7 @@ pre {
  */
 .code-highlight {
   float: left; /* 1 */
-  min-width: 100%; /* 2 */
+  min-width: calc(100% - 4px); /* 2 */
 }
 
 .code-line {
@@ -40,8 +40,8 @@ pre {
 }
 
 .highlight-line {
-  margin-left: -16px;
-  margin-right: -16px;
+  margin-left: -14px;
+  margin-right: -14px;
   background-color: hsla(
     55,
     0%,
